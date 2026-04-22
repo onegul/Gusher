@@ -1,0 +1,32 @@
+# --- IDE / Local Environment ---
+.idea
+*.iml
+local.properties
+captures
+
+# --- Gradle & Kotlin Multiplatform ---
+.gradle
+.kotlin
+.konan/
+
+# --- Build Outputs ---
+**/build/
+!src/**/build/
+.externalNativeBuild
+.cxx
+
+# --- iOS & Xcode ---
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+#**/xcuserdata/
+xcuserdata
+**/xcshareddata/WorkspaceSettings.xcsettings
+.swiftpm/
+
+# --- OS & Web/Misc ---
+.DS_Store
+node_modules/
+*.log
