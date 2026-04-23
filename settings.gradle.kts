@@ -35,3 +35,4 @@ plugins {
 rootProject.name = "gusher"
 
 include(":core")
+include(":protocol:rtmp")
