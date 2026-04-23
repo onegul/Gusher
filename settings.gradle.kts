@@ -33,3 +33,5 @@ plugins {
 }
 
 rootProject.name = "gusher"
+
+include(":core")
