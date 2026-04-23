@@ -20,7 +20,7 @@ public value class Micros(public val value: Long) : Comparable<Micros> {
 
         public fun fromMillis(ms: Long): Micros = Micros(ms * 1_000L)
 
-        public fun fromNanos(ns: Long): Micros = Micros(ns * 1_000L)
+        public fun fromNanos(ns: Long): Micros = Micros(ns / 1_000L)
     }
 }
 
